@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://static.vecteezy.com/system/resources/previews/008/888/451/original/horizontal-view-of-asphalt-road-with-bike-lense-background-of-trees-and-green-grass-with-puddle-and-mountain-under-the-blue-sky-vector.jpg);
+            background-repeat: no-repeat;
+            
+        }
+        marquee{
+        margin-top: 30%;
+        }
+       #a{
+     
+        color: white;
+          font-size: 40px;
+        text-decoration: none;
+          position: absolute;
+          top: 45%;
+          left: 140px;
+          
+       }
+       #a1{
+       
+        color:white;
+          font-size: 40px;
+        text-decoration: none;
+          position: absolute;
+          top: 25%;
+          left: 790px;
+          
+       }
+       #input1{
+        background-color: red;
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        top: 80%;
+       }
+       #input2{
+        background-color: red;
+        font-size: 20px;
+        position: absolute;
+        left: 15%;
+        top: 80%;
+       }
+    </style>
+</head>
+<body>
+
+     <marquee direction="right" scrollamount="20" id="im">
+    <img src="./dog gif.gif">&emsp;
+    <img id="img1" src="./running-running-man.gif" alt="" height="500px">
+
+    <!-- <a id="a" href="#img1">FRESHER</a> -->
+    <!-- <a id="a1" href="#img1">HR</a> -->
+
+</marquee>
+
+<input id="input1" type="button" onclick="im.start()"value="start">
+<input id="input2" type="button" onclick="im.stop()" value="stop">
+
+</body>
+</html>
